@@ -1,0 +1,1 @@
+This repository contains a Dockerfile that fails to build due to missing requirements file.  The `COPY requirements.txt .` instruction fails if the requirements.txt file does not exist in the build context.  The solution demonstrates how to correctly include the file and handle potential permission problems.
